@@ -1,9 +1,12 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+//import { RouterOutlet } from '@angular/router';
+import { HeaderComponent } from './header/header';
+import {Voyager} from './voyager/voyager';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [HeaderComponent,Voyager], 
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

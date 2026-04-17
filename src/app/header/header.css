@@ -1,0 +1,10 @@
+h1 {
+  display: flex;              
+  justify-content: center;    
+  align-items: center;        
+  height: 50px;             
+background-color:beige;
+  color:black;             
+  margin: 0;
+  font-size: 2rem;
+}
